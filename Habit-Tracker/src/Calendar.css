@@ -1,0 +1,27 @@
+.calendar-section {
+  padding: 2rem;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 60px);
+  gap: 10px;
+}
+
+.day {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.completed {
+  background-color: limegreen;
+}
+
+.missed {
+  background-color: crimson;
+}
